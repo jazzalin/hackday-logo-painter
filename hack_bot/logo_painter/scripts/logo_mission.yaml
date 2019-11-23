@@ -1,0 +1,52 @@
+# Datum: North: 4816533.332963, East: 536663.634379
+- name: Mission 0  # Mission 0
+  datum: [536663.634379, 4816533.332963]
+  goalpoint:
+    position: [5.280000, 7.500000]
+  goalpoint_theta: 0
+  viapoints:
+    []
+  actions:
+    - name: start_painting
+      service: paint_start
+- name: Mission 1  # Mission 1
+  datum: [536663.634379, 4816533.332963]
+  goalpoint:
+    position: [4.000000, 10.000000]
+  goalpoint_theta: 0
+  viapoints:
+    - position: [4.480000, 14.240000] #Point 1
+    - position: [5.920000, 16.100000] #Point 2
+    - position: [8.140000, 17.360000] #Point 3
+    - position: [15.540000, 17.620000] #Point 4
+    - position: [14.620000, 15.920000] #Point 5
+    - position: [8.920000, 15.840000] #Point 6
+    - position: [6.040000, 13.780000] #Point 7
+    - position: [5.720000, 9.860000] #Point 8
+    - position: [7.220000, 7.880000] #Point 9
+    - position: [9.700000, 6.980000] #Point 10
+    - position: [11.640000, 7.000000] #Point 11
+    - position: [14.460000, 11.200000] #Point 12
+    - position: [20.180000, 11.380000] #Point 13
+    - position: [22.660000, 15.820000] #Point 14
+    - position: [16.780000, 15.900000] #Point 15
+    - position: [17.760000, 17.640000] #Point 16
+    - position: [22.880000, 17.580000] #Point 17
+    - position: [24.360000, 16.200000] #Point 18
+    - position: [24.220000, 14.660000] #Point 19
+    - position: [21.460000, 10.140000] #Point 20
+    - position: [15.120000, 9.620000] #Point 21
+    - position: [12.560000, 5.300000] #Point 22
+    - position: [7.080000, 6.040000] #Point 23
+  actions:
+    - name: stop_painting
+      service: paint_stop
+- name: Mission 2  # Mission 2
+  datum: [536663.634379, 4816533.332963]
+  goalpoint:
+    position: [0.000000, 0.000000]
+  goalpoint_theta: 0
+  viapoints:
+    - position: [5.280000, 7.500000] #Point 24
+  actions:
+    []
